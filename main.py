@@ -17,7 +17,7 @@ def RGB(event, x, y, flags, param):
 cv2.namedWindow('RGB')
 cv2.setMouseCallback('RGB', RGB)
 
-cap = cv2.VideoCapture("C:\\Users\\marsh\\Downloads\\Projects py\\Counting_cars\\Highway4.mp4")
+cap = cv2.VideoCapture("C:\\Users\\marsh\\Downloads\\Projects py\\Counting_cars\\SINGLE LINE.mp4")
 
 
 my_file = open("C:\\Users\\marsh\\Downloads\\Projects py\\Counting_cars\\coco.txt", "r")
